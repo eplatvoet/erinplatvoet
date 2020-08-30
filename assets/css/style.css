@@ -1,0 +1,137 @@
+/* nav bar from bootstrap */
+.navstyling {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navstyling a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navstyling a:hover {
+    background-color: salmon;
+    color: white;
+  }
+  .brand {
+    background-color: salmon;
+    color: white;
+  }
+  
+  .navstyling a.active {
+    background-color: white;
+    color: salmon;
+  }
+  
+  body {
+    background-color: #ededed;
+    font-family: "Shadows Into Light Two", cursive;
+    color: #201f1f;
+  }
+  
+  .name {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 175px;
+    color: salmon;
+  }
+  
+  .info
+  {
+    padding: 75px;
+  }
+  
+  .profile {
+    padding: 5px;
+  }
+  
+  .assignments{
+    justify-content: center;
+  }
+  .contact {
+    box-sizing: border-box;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: salmon;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    size: 20px;
+    color: salmon;
+  }
+  
+  
+  /* media queries */
+  @media screen and (min-width: 991px) {
+    .name {
+      font-size: 175px;
+    }
+    }
+  
+  @media screen and (max-width: 990px) {
+    * {
+      justify-content: center;
+    }
+    .name {
+      font-size: 130px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    * {
+      justify-content: center;
+    }
+    .name {
+      font-size: 100px;
+    }
+  }
+  @media screen and (max-width: 519px) {
+    * {
+      justify-content: center;
+    }
+    .name {
+      font-size: 75px;
+    }
+  }
+  @media screen and (max-width: 389px) {
+    * {
+      justify-content: center;
+    }
+    .name {
+      font-size: 60px;
+    }
+  }
+  
