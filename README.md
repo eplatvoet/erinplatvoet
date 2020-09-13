@@ -11,7 +11,7 @@
 - [SCREENSHOTS](#SCREENSHOTS)  
 
 ## DESCRIPTION
-Description goes here ...
+Welcome to the portfolio of Erin Platvoet. This portfolio provides the viewer with a little bit of background information about myself, displays assigments and projects completed during the Rutgers Coding Bootcamp, and provides plenty of options for contact! Enjoy!
 
 ## LICENSE
 Unlicensed
@@ -34,4 +34,4 @@ https://eplatvoet.github.io/erinplatvoet/
 
 
 ## SCREENSHOTS
-![gif](assets/images/portfolio.gif)  
+
